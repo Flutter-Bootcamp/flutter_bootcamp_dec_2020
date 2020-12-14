@@ -1,9 +1,11 @@
 import 'dart:math';
 
-void main() {
+void main() async {
   getTemperature().then((temp) {
     print('Temperature: $temp°');
   });
+
+  //await getTemperature();
   print('Waiting.');
   print('Waiting..');
   print('Waiting...');
