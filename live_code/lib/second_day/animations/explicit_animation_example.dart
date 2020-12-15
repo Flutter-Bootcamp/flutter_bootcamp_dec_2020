@@ -1,6 +1,6 @@
-import 'package:examples/examples/stateless_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:live_code/second_day/examples/stateless_card.dart';
 
 class ExplicitAnimationExample extends StatefulWidget {
   @override

@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:live_code/second_day/stateful_example.dart';
 
-import 'homepage.dart';
+import 'animations/explicit_animation_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: ExplicitAnimationExample(),
     );
   }
 }
